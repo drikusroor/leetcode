@@ -1,9 +1,7 @@
 export type TIslandCell = 1 | 0 | '#'
 export type TGrid = Array<Array<TIslandCell>>
 
-export function island(input: TGrid) {
-
-    let grid = [...input];
+export function island(grid: TGrid) {
 
     function dfs(y: number, x: number, first = false) {
         if (y < 0 || x < 0 || y > grid.length - 1 || x > grid[0].length - 1 || grid[y][x] !== 1) {
