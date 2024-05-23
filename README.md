@@ -1,5 +1,25 @@
 # leetcode
 
+## C language
+
+The C-based solutions to LeetCode problems are in the `c` directory.
+
+To compile:
+
+```bash
+gcc -o src/island.c bin/island
+```
+
+To run:
+
+```bash
+bin/island
+```
+
+## TypeScript
+
+The TypeScript-based solutions to LeetCode problems are in the `ts` directory.
+
 To install dependencies:
 
 ```bash
